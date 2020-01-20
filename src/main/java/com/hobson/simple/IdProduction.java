@@ -1,4 +1,4 @@
-package com.hobson.util;
+package com.hobson.simple;
 
 import java.net.Inet4Address;
 import java.net.InetAddress;

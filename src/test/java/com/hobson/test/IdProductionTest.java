@@ -1,6 +1,6 @@
 package com.hobson.test;
 
-import com.hobson.util.IdProduction;
+import com.hobson.simple.IdProduction;
 import org.junit.Test;
 
 /**
