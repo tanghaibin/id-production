@@ -76,28 +76,28 @@ public class CompressDateUtil {
     }
 
     private static void initMonthEncode() {
-        monthEncode = new HashMap<>();
+        monthEncode = new HashMap<>(12);
         for (int index = 1; index <= MONTH_ENCODE_CODE.length; ++index) {
             monthEncode.put(index, MONTH_ENCODE_CODE[index - 1]);
         }
     }
 
     private static void initDayEncode() {
-        dayEncode = new HashMap<>();
+        dayEncode = new HashMap<>(31);
         for (int index = 1; index <= DAY_ENCODE_CODE.length; ++index) {
             dayEncode.put(index, DAY_ENCODE_CODE[index - 1]);
         }
     }
 
     private static void initHourEncode() {
-        hourEncode = new HashMap<>();
+        hourEncode = new HashMap<>(24);
         for (int index = 0; index < HOUR_ENCODE_CODE.length; ++index) {
             hourEncode.put(index, HOUR_ENCODE_CODE[index]);
         }
     }
 
     private static void initMinuteEncode() {
-        minuteEncode = new HashMap<>();
+        minuteEncode = new HashMap<>(60);
         for (int index = 0; index < MINUTE_ENCODE_CODE.length; ++index) {
             minuteEncode.put(index, MINUTE_ENCODE_CODE[index]);
         }
